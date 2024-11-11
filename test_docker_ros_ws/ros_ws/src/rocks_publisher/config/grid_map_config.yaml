@@ -1,4 +1,0 @@
-map_file: "/home/spacer/Internship_nathan/ros_ws/src/grid_map_publisher/config/height_map_terrain.png"  # Update this path
-resolution: 0.2  # Set the resolution of the grid cells (e.g., 0.1 meters per cell)
-origin: [-10.0, -10.0, 0.0]  # The [x, y, yaw] of the bottom-left corner of the map
-layer_name: "elevation"  # Name of the layer to be used in the grid map

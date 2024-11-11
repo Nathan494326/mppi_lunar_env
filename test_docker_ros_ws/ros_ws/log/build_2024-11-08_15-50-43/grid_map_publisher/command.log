@@ -1,4 +1,0 @@
-Invoking command in '/workstation/ros_ws/build/grid_map_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/ros_ws/build/grid_map_publisher -- -j12 -l12
-Invoked command in '/workstation/ros_ws/build/grid_map_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/ros_ws/build/grid_map_publisher -- -j12 -l12
-Invoking command in '/workstation/ros_ws/build/grid_map_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/ros_ws/build/grid_map_publisher
-Invoked command in '/workstation/ros_ws/build/grid_map_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/ros_ws/build/grid_map_publisher

@@ -1,6 +1,0 @@
-Invoking command in '/workstation/ros_ws/build/leo_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workstation/ros_ws/src/leo_pose -DCMAKE_INSTALL_PREFIX=/workstation/ros_ws/install/leo_pose
-Invoked command in '/workstation/ros_ws/build/leo_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workstation/ros_ws/src/leo_pose -DCMAKE_INSTALL_PREFIX=/workstation/ros_ws/install/leo_pose
-Invoking command in '/workstation/ros_ws/build/leo_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/ros_ws/build/leo_pose -- -j12 -l12
-Invoked command in '/workstation/ros_ws/build/leo_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/ros_ws/build/leo_pose -- -j12 -l12
-Invoking command in '/workstation/ros_ws/build/leo_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/ros_ws/build/leo_pose
-Invoked command in '/workstation/ros_ws/build/leo_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/ros_ws/build/leo_pose
