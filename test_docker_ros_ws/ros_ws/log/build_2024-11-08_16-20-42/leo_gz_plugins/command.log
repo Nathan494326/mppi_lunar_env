@@ -1,0 +1,4 @@
+Invoking command in '/workstation/ros_ws/build/leo_gz_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/ros_ws/build/leo_gz_plugins -- -j12 -l12
+Invoked command in '/workstation/ros_ws/build/leo_gz_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/ros_ws/build/leo_gz_plugins -- -j12 -l12
+Invoking command in '/workstation/ros_ws/build/leo_gz_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/ros_ws/build/leo_gz_plugins
+Invoked command in '/workstation/ros_ws/build/leo_gz_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/ros_ws/build/leo_gz_plugins

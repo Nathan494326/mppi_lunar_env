@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<sdf version="1.7">
+  <model name='turtlebot3_world_ignition'>
+    <pose>0 0 0 0 0 0</pose>
+    <static>1</static>
+
+    <link name='hexagon_structure'>
+
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/hexagon.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name='visual'>
+        <cast_shadows>1</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/hexagon.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+    </link>
+
+
+    <link name='wall_structure'>
+
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/wall.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name='visual'>
+        <cast_shadows>1</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/wall.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+  </model>
+</sdf>
+
+

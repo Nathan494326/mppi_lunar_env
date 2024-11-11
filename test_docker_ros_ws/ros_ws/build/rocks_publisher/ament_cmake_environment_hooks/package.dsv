@@ -1,0 +1,4 @@
+source;share/rocks_publisher/local_setup.bash
+source;share/rocks_publisher/local_setup.dsv
+source;share/rocks_publisher/local_setup.sh
+source;share/rocks_publisher/local_setup.zsh

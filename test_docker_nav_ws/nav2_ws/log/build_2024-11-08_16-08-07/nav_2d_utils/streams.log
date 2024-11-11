@@ -1,0 +1,120 @@
+[0.047s] Invoking command in '/workstation/nav2_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav_2d_msgs:/workstation/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav_2d_msgs:/workstation/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/workstation/nav2_ws/install/nav2_util/lib:/workstation/nav2_ws/install/nav2_msgs/lib:/workstation/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workstation/nav2_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils -DCMAKE_INSTALL_PREFIX=/workstation/nav2_ws/install/nav_2d_utils
+[0.202s] -- The C compiler identification is GNU 11.4.0
+[0.350s] -- The CXX compiler identification is GNU 11.4.0
+[0.371s] -- Detecting C compiler ABI info
+[0.529s] -- Detecting C compiler ABI info - done
+[0.548s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.548s] -- Detecting C compile features
+[0.549s] -- Detecting C compile features - done
+[0.555s] -- Detecting CXX compiler ABI info
+[0.728s] -- Detecting CXX compiler ABI info - done
+[0.740s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.740s] -- Detecting CXX compile features
+[0.741s] -- Detecting CXX compile features - done
+[0.747s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.056s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.240s] -- Found nav2_common: 1.1.16 (/workstation/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[1.244s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.299s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.306s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.321s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.363s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.420s] -- Found nav_2d_msgs: 1.1.16 (/workstation/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[1.444s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.467s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.520s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.524s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.666s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.704s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.775s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.791s] -- Looking for pthread.h
+[1.922s] -- Looking for pthread.h - found
+[1.922s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.061s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.064s] -- Found Threads: TRUE  
+[2.151s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[2.174s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.196s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.199s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.199s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.350s] -- Found nav2_msgs: 1.1.16 (/workstation/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[2.394s] -- Found nav2_util: 1.1.16 (/workstation/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[2.497s] -- Setting build type to Release as none was specified.
+[2.603s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.776s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.796s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.797s] -- Configured cppcheck include dirs: /workstation/nav2_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils/include
+[2.797s] -- Configured cppcheck exclude dirs and/or files: 
+[2.803s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.804s] -- Configured cpplint exclude dirs and/or files: 
+[2.805s] -- Added test 'lint_cmake' to check CMake code style
+[2.805s] -- Added test 'uncrustify' to check C / C++ code style
+[2.805s] -- Configured uncrustify additional arguments: 
+[2.805s] -- Added test 'xmllint' to check XML markup files
+[2.809s] -- Configuring done
+[3.050s] -- Generating done
+[3.056s] -- Build files have been written to: /workstation/nav2_ws/build/nav_2d_utils
+[3.101s] Invoked command in '/workstation/nav2_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav_2d_msgs:/workstation/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav_2d_msgs:/workstation/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/workstation/nav2_ws/install/nav2_util/lib:/workstation/nav2_ws/install/nav2_msgs/lib:/workstation/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workstation/nav2_ws/src/navigation2/nav2_dwb_controller/nav_2d_utils -DCMAKE_INSTALL_PREFIX=/workstation/nav2_ws/install/nav_2d_utils
+[3.103s] Invoking command in '/workstation/nav2_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav_2d_msgs:/workstation/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav_2d_msgs:/workstation/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/workstation/nav2_ws/install/nav2_util/lib:/workstation/nav2_ws/install/nav2_msgs/lib:/workstation/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workstation/nav2_ws/build/nav_2d_utils -- -j12 -l12
+[3.242s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.243s] [ 12%] [32mBuilding CXX object CMakeFiles/conversions.dir/src/conversions.cpp.o[0m
+[3.252s] [ 18%] [32mBuilding CXX object CMakeFiles/path_ops.dir/src/path_ops.cpp.o[0m
+[3.253s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.413s] [ 31%] [32m[1mLinking CXX shared library libpath_ops.so[0m
+[6.491s] [ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.660s] [ 37%] Built target gtest_main
+[13.172s] [ 37%] Built target path_ops
+[15.177s] [ 43%] [32m[1mLinking CXX shared library libconversions.so[0m
+[16.058s] [ 43%] Built target conversions
+[16.129s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_help.dir/src/tf_help.cpp.o[0m
+[26.150s] [ 56%] [32m[1mLinking CXX shared library libtf_help.so[0m
+[27.166s] [ 56%] Built target tf_help
+[32.333s] [ 62%] [32m[1mLinking CXX static library libgtest.a[0m
+[32.525s] [ 62%] Built target gtest
+[32.654s] [ 68%] [32mBuilding CXX object test/CMakeFiles/2d_utils_tests.dir/2d_utils_test.cpp.o[0m
+[48.222s] [ 75%] [32m[1mLinking CXX executable 2d_utils_tests[0m
+[48.650s] [ 75%] Built target 2d_utils_tests
+[48.689s] [ 81%] [32mBuilding CXX object test/CMakeFiles/tf_help_tests.dir/tf_help_test.cpp.o[0m
+[59.494s] [ 87%] [32m[1mLinking CXX executable tf_help_tests[0m
+[60.103s] [ 87%] Built target tf_help_tests
+[60.165s] [ 93%] [32mBuilding CXX object test/CMakeFiles/path_ops_tests.dir/path_ops_test.cpp.o[0m
+[64.749s] [100%] [32m[1mLinking CXX executable path_ops_tests[0m
+[66.361s] [100%] Built target path_ops_tests
+[66.466s] Invoked command in '/workstation/nav2_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav_2d_msgs:/workstation/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav_2d_msgs:/workstation/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/workstation/nav2_ws/install/nav2_util/lib:/workstation/nav2_ws/install/nav2_msgs/lib:/workstation/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workstation/nav2_ws/build/nav_2d_utils -- -j12 -l12
+[66.645s] Invoking command in '/workstation/nav2_ws/build/nav_2d_utils': AMENT_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav_2d_msgs:/workstation/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav_2d_msgs:/workstation/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/workstation/nav2_ws/install/nav2_util/lib:/workstation/nav2_ws/install/nav2_msgs/lib:/workstation/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workstation/nav2_ws/build/nav_2d_utils
+[66.683s] -- Install configuration: "Release"
+[66.685s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/lib/libconversions.so
+[66.687s] -- Set runtime path of "/workstation/nav2_ws/install/nav_2d_utils/lib/libconversions.so" to ""
+[66.688s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/lib/libpath_ops.so
+[66.688s] -- Set runtime path of "/workstation/nav2_ws/install/nav_2d_utils/lib/libpath_ops.so" to ""
+[66.692s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/lib/libtf_help.so
+[66.692s] -- Set runtime path of "/workstation/nav2_ws/install/nav_2d_utils/lib/libtf_help.so" to ""
+[66.692s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/include/
+[66.693s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/include//nav_2d_utils
+[66.693s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/include//nav_2d_utils/path_ops.hpp
+[66.693s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/include//nav_2d_utils/odom_subscriber.hpp
+[66.695s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/include//nav_2d_utils/conversions.hpp
+[66.695s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/include//nav_2d_utils/tf_help.hpp
+[66.695s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/include//nav_2d_utils/parameters.hpp
+[66.696s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.sh
+[66.696s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.dsv
+[66.698s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/ament_index/resource_index/package_run_dependencies/nav_2d_utils
+[66.699s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/ament_index/resource_index/parent_prefix_path/nav_2d_utils
+[66.699s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.sh
+[66.699s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.dsv
+[66.700s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/path.sh
+[66.709s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/environment/path.dsv
+[66.709s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.bash
+[66.710s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.sh
+[66.710s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.zsh
+[66.711s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/local_setup.dsv
+[66.712s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/package.dsv
+[66.713s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/ament_index/resource_index/packages/nav_2d_utils
+[66.716s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[66.720s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[66.722s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[66.724s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig.cmake
+[66.724s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig-version.cmake
+[66.725s] -- Installing: /workstation/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/package.xml
+[66.772s] Invoked command in '/workstation/nav2_ws/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav_2d_msgs:/workstation/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav_2d_msgs:/workstation/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/workstation/nav2_ws/install/nav2_util/lib:/workstation/nav2_ws/install/nav2_msgs/lib:/workstation/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workstation/nav2_ws/build/nav_2d_utils

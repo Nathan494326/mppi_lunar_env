@@ -1,0 +1,88 @@
+[0.030s] Invoking command in '/workstation/ros_ws/build/leo_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workstation/ros_ws/src/leo_pose -DCMAKE_INSTALL_PREFIX=/workstation/ros_ws/install/leo_pose
+[0.145s] -- The C compiler identification is GNU 11.4.0
+[0.278s] -- The CXX compiler identification is GNU 11.4.0
+[0.291s] -- Detecting C compiler ABI info
+[0.396s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.413s] -- Detecting C compile features
+[0.413s] -- Detecting C compile features - done
+[0.420s] -- Detecting CXX compiler ABI info
+[0.555s] -- Detecting CXX compiler ABI info - done
+[0.566s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.567s] -- Detecting CXX compile features
+[0.569s] -- Detecting CXX compile features - done
+[0.571s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.851s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.180s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.189s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.204s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.221s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.340s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.343s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.488s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.535s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.608s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.622s] -- Looking for pthread.h
+[1.712s] -- Looking for pthread.h - found
+[1.712s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.801s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.803s] -- Found Threads: TRUE  
+[2.154s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.185s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.186s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.186s] -- Configured cppcheck include dirs: /workstation/ros_ws/src/leo_pose/include
+[2.186s] -- Configured cppcheck exclude dirs and/or files: 
+[2.186s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.187s] -- Configured cpplint exclude dirs and/or files: 
+[2.187s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.188s] -- Added test 'lint_cmake' to check CMake code style
+[2.188s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.190s] -- Added test 'uncrustify' to check C / C++ code style
+[2.190s] -- Configured uncrustify additional arguments: 
+[2.190s] -- Added test 'xmllint' to check XML markup files
+[2.194s] -- Configuring done
+[2.212s] -- Generating done
+[2.214s] -- Build files have been written to: /workstation/ros_ws/build/leo_pose
+[2.229s] Invoked command in '/workstation/ros_ws/build/leo_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workstation/ros_ws/src/leo_pose -DCMAKE_INSTALL_PREFIX=/workstation/ros_ws/install/leo_pose
+[2.231s] Invoking command in '/workstation/ros_ws/build/leo_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/ros_ws/build/leo_pose -- -j12 -l12
+[2.299s] [ 25%] [32mBuilding CXX object CMakeFiles/leo_pose.dir/src/gt_odometry.cpp.o[0m
+[19.260s] [ 50%] [32m[1mLinking CXX shared library libleo_pose.so[0m
+[19.898s] [ 50%] Built target leo_pose
+[19.923s] [ 75%] [32mBuilding CXX object CMakeFiles/gt_odometry.dir/src/gt_odometry.cpp.o[0m
+[30.260s] [100%] [32m[1mLinking CXX executable gt_odometry[0m
+[30.779s] [100%] Built target gt_odometry
+[30.791s] Invoked command in '/workstation/ros_ws/build/leo_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/ros_ws/build/leo_pose -- -j12 -l12
+[30.814s] Invoking command in '/workstation/ros_ws/build/leo_pose': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/ros_ws/build/leo_pose
+[30.822s] -- Install configuration: ""
+[30.823s] -- Installing: /workstation/ros_ws/install/leo_pose/include
+[30.823s] -- Installing: /workstation/ros_ws/install/leo_pose/include/leo_pose
+[30.823s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/environment/library_path.sh
+[30.823s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/environment/library_path.dsv
+[30.823s] -- Installing: /workstation/ros_ws/install/leo_pose/lib/libleo_pose.so
+[30.828s] -- Set runtime path of "/workstation/ros_ws/install/leo_pose/lib/libleo_pose.so" to ""
+[30.829s] -- Installing: /workstation/ros_ws/install/leo_pose/lib/leo_pose/gt_odometry
+[30.831s] -- Set runtime path of "/workstation/ros_ws/install/leo_pose/lib/leo_pose/gt_odometry" to ""
+[30.831s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/launch
+[30.831s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/launch/__pycache__
+[30.831s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/launch/__pycache__/lidar_pose_publisher_launch.cpython-310.pyc
+[30.832s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/launch/gt_odometry_launch.py
+[30.832s] -- Installing: /workstation/ros_ws/install/leo_pose/share/ament_index/resource_index/package_run_dependencies/leo_pose
+[30.832s] -- Installing: /workstation/ros_ws/install/leo_pose/share/ament_index/resource_index/parent_prefix_path/leo_pose
+[30.832s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/environment/ament_prefix_path.sh
+[30.833s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/environment/ament_prefix_path.dsv
+[30.833s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/environment/path.sh
+[30.833s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/environment/path.dsv
+[30.833s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/local_setup.bash
+[30.833s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/local_setup.sh
+[30.834s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/local_setup.zsh
+[30.834s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/local_setup.dsv
+[30.834s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/package.dsv
+[30.834s] -- Installing: /workstation/ros_ws/install/leo_pose/share/ament_index/resource_index/packages/leo_pose
+[30.834s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.835s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.835s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/cmake/ament_cmake_export_libraries-extras.cmake
+[30.835s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/cmake/leo_poseConfig.cmake
+[30.835s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/cmake/leo_poseConfig-version.cmake
+[30.835s] -- Installing: /workstation/ros_ws/install/leo_pose/share/leo_pose/package.xml
+[30.838s] Invoked command in '/workstation/ros_ws/build/leo_pose' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/ros_ws/build/leo_pose

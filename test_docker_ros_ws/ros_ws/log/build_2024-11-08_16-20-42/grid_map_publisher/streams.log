@@ -1,0 +1,24 @@
+[0.027s] Invoking command in '/workstation/ros_ws/build/grid_map_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/ros_ws/build/grid_map_publisher -- -j12 -l12
+[0.179s] [100%] Built target grid_map_publisher_node
+[0.180s] [ 50%] Built target grid_map_subscriber_node
+[0.240s] Invoked command in '/workstation/ros_ws/build/grid_map_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/ros_ws/build/grid_map_publisher -- -j12 -l12
+[0.292s] Invoking command in '/workstation/ros_ws/build/grid_map_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/ros_ws/build/grid_map_publisher
+[0.303s] -- Install configuration: ""
+[0.303s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/lib/grid_map_publisher/grid_map_publisher_node
+[0.304s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/lib/grid_map_publisher/grid_map_subscriber_node
+[0.304s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/ament_index/resource_index/package_run_dependencies/grid_map_publisher
+[0.304s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/ament_index/resource_index/parent_prefix_path/grid_map_publisher
+[0.304s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/grid_map_publisher/environment/ament_prefix_path.sh
+[0.305s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/grid_map_publisher/environment/ament_prefix_path.dsv
+[0.305s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/grid_map_publisher/environment/path.sh
+[0.305s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/grid_map_publisher/environment/path.dsv
+[0.305s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/grid_map_publisher/local_setup.bash
+[0.305s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/grid_map_publisher/local_setup.sh
+[0.305s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/grid_map_publisher/local_setup.zsh
+[0.305s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/grid_map_publisher/local_setup.dsv
+[0.305s] -- Installing: /workstation/ros_ws/install/grid_map_publisher/share/grid_map_publisher/package.dsv
+[0.306s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/ament_index/resource_index/packages/grid_map_publisher
+[0.306s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/grid_map_publisher/cmake/grid_map_publisherConfig.cmake
+[0.306s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/grid_map_publisher/cmake/grid_map_publisherConfig-version.cmake
+[0.306s] -- Up-to-date: /workstation/ros_ws/install/grid_map_publisher/share/grid_map_publisher/package.xml
+[0.327s] Invoked command in '/workstation/ros_ws/build/grid_map_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/ros_ws/build/grid_map_publisher

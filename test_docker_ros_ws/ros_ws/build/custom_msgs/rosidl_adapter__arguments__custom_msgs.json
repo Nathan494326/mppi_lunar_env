@@ -1,0 +1,7 @@
+{
+  "package_name": "custom_msgs",
+  "non_idl_tuples": [
+    "/workstation/ros_ws/src/custom_msgs:msg/ObstacleData.msg",
+    "/workstation/ros_ws/src/custom_msgs:msg/Obstacles.msg"
+  ]
+}
