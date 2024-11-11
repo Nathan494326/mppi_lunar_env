@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<sdf version="1.7">
+  <model name='test_item'>
+    <pose>0 0 0 0 0 0</pose>
+    <static>1</static>
+
+    <link name='link'>
+
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://folder_test/meshes/mesh_waves.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name='visual'>
+        <cast_shadows>1</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://folder_test/meshes/mesh_waves.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      
+    </link>
+  </model>
+</sdf>
+
+
