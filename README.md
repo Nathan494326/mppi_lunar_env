@@ -30,7 +30,7 @@ In order to be able to put the focus on the navigation part, the localization of
 
 - Open five terminals, and in four of them go to ```cd /mppi_lunar_env/docker_ros_ws/``` and in the last one, go to ```cd /mppi_lunar_env/docker_nav_ws/``` 
 
-
+---
 
 ## Docker Installation
 
@@ -78,6 +78,7 @@ This section explains how to open 5 different docker containers in order to run 
    ```bash
    ./docker_navigation/run.sh
    ```
+---
 
 ## Execution Instructions
 
