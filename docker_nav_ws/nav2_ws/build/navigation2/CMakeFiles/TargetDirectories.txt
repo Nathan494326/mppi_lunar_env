@@ -1,9 +1,0 @@
-/workstation/nav2_ws/build/navigation2/CMakeFiles/uninstall.dir
-/workstation/nav2_ws/build/navigation2/CMakeFiles/navigation2_uninstall.dir
-/workstation/nav2_ws/build/navigation2/CMakeFiles/test.dir
-/workstation/nav2_ws/build/navigation2/CMakeFiles/edit_cache.dir
-/workstation/nav2_ws/build/navigation2/CMakeFiles/rebuild_cache.dir
-/workstation/nav2_ws/build/navigation2/CMakeFiles/list_install_components.dir
-/workstation/nav2_ws/build/navigation2/CMakeFiles/install.dir
-/workstation/nav2_ws/build/navigation2/CMakeFiles/install/local.dir
-/workstation/nav2_ws/build/navigation2/CMakeFiles/install/strip.dir

@@ -1,4 +1,0 @@
-Invoking command in '/workstation/nav2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/nav2_ws/build/nav_2d_msgs -- -j12 -l12
-Invoked command in '/workstation/nav2_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/nav2_ws/build/nav_2d_msgs -- -j12 -l12
-Invoking command in '/workstation/nav2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/nav2_ws/build/nav_2d_msgs
-Invoked command in '/workstation/nav2_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/nav2_ws/build/nav_2d_msgs

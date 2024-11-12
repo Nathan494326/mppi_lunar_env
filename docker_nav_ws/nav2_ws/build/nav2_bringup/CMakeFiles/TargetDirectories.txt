@@ -1,9 +1,0 @@
-/workstation/nav2_ws/build/nav2_bringup/CMakeFiles/uninstall.dir
-/workstation/nav2_ws/build/nav2_bringup/CMakeFiles/nav2_bringup_uninstall.dir
-/workstation/nav2_ws/build/nav2_bringup/CMakeFiles/test.dir
-/workstation/nav2_ws/build/nav2_bringup/CMakeFiles/edit_cache.dir
-/workstation/nav2_ws/build/nav2_bringup/CMakeFiles/rebuild_cache.dir
-/workstation/nav2_ws/build/nav2_bringup/CMakeFiles/list_install_components.dir
-/workstation/nav2_ws/build/nav2_bringup/CMakeFiles/install.dir
-/workstation/nav2_ws/build/nav2_bringup/CMakeFiles/install/local.dir
-/workstation/nav2_ws/build/nav2_bringup/CMakeFiles/install/strip.dir

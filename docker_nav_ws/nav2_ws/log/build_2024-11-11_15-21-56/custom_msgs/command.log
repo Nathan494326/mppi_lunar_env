@@ -1,6 +1,0 @@
-Invoking command in '/workstation/nav2_ws/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workstation/nav2_ws/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/workstation/nav2_ws/install/custom_msgs
-Invoked command in '/workstation/nav2_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workstation/nav2_ws/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/workstation/nav2_ws/install/custom_msgs
-Invoking command in '/workstation/nav2_ws/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/nav2_ws/build/custom_msgs -- -j12 -l12
-Invoked command in '/workstation/nav2_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/nav2_ws/build/custom_msgs -- -j12 -l12
-Invoking command in '/workstation/nav2_ws/build/custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/nav2_ws/build/custom_msgs
-Invoked command in '/workstation/nav2_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/nav2_ws/build/custom_msgs
