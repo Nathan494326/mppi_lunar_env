@@ -24,13 +24,6 @@ In order to be able to put the focus on the navigation part, the localization of
 
 ## Docker Installation
 
-**TO FILL IN**
-
-
-## Execution Instructions
-
-Follow the instructions below to set up and run the ROS2 simulation.
-
 ### Terminal 1
 
 - Navigate to the ROS workspace:
@@ -47,7 +40,7 @@ Follow the instructions below to set up and run the ROS2 simulation.
    ```
 - Launch the simulation:
    ```bash
-   ros2 launch leo_gz_bringup leo_gz.launch.py sim_world:="/path/to/ros_ws/src/leo_simulator-ros2/leo_gz_worlds/worlds/leo_mountains.sdf" world_frame:="leo_mountains"
+   ros2 launch leo_gz_bringup leo_gz.launch.py sim_world:="/workstation/ros_ws/src/leo_simulator-ros2/leo_gz_worlds/worlds/leo_mountains.sdf" world_frame:="leo_mountains"
    ```
 
 ### Terminal 2
@@ -111,6 +104,93 @@ Follow the instructions below to set up and run the ROS2 simulation.
    ```
 - Launch the navigation stack:
    ```bash
-   ros2 launch nav2_bringup map_and_nav_launch.py map:=/path/to/ros_ws/blank_map.yaml use_sim_time:=true autostart:=true
+   ros2 launch nav2_bringup map_and_nav_launch.py map:=/workstation/nav2_ws/blank_map.yaml use_sim_time:=true autostart:=true
+   ```
+
+## Execution Instructions
+
+Follow the instructions below to set up and run the ROS2 simulation.
+
+### Terminal 1
+
+- Navigate to the ROS workspace:
+   ```bash
+   cd ros_ws
+   ```
+- Build the workspace:
+   ```bash
+   colcon build
+   ```
+- Source the workspace:
+   ```bash
+   source install/setup.bash
+   ```
+- Launch the simulation:
+   ```bash
+   ros2 launch leo_gz_bringup leo_gz.launch.py sim_world:="/workstation/ros_ws/src/leo_simulator-ros2/leo_gz_worlds/worlds/leo_mountains.sdf" world_frame:="leo_mountains"
+   ```
+
+### Terminal 2
+
+- Launch RViz:
+   ```bash
+   rviz2 -d test_blank_map.rviz
+   ```
+
+### Terminal 3
+
+- Navigate to the ROS workspace:
+   ```bash
+   cd ros_ws
+   ```
+- Source the workspace:
+   ```bash
+   source install/setup.bash
+   ```
+- Run the grid map publisher:
+   ```bash
+   ros2 run grid_map_publisher grid_map_publisher_node
+   ```
+
+### Terminal 4
+
+- Navigate to the ROS workspace:
+   ```bash
+   cd ros_ws
+   ```
+- Source the workspace:
+   ```bash
+   source install/setup.bash
+   ```
+- Run the rocks publisher:
+   ```bash
+   ros2 run rocks_publisher rocks_publisher
+   ```
+
+### Terminal 5
+
+- Navigate to the Nav2 workspace:
+   ```bash
+   cd nav2_ws
+   ```
+- Build the workspace:
+   ```bash
+   colcon build
+   ```
+- Source the workspace:
+   ```bash
+   source install/setup.bash
+   ```
+- Navigate to the ROS2 workspace:
+   ```bash
+   cd ros2_ws
+   ```
+- Source the workspace:
+   ```bash
+   source install/setup.bash
+   ```
+- Launch the navigation stack:
+   ```bash
+   ros2 launch nav2_bringup map_and_nav_launch.py map:=/workstation/nav2_ws/blank_map.yaml use_sim_time:=true autostart:=true
    ```
 
