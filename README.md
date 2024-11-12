@@ -29,6 +29,7 @@ In order to be able to put the focus on the navigation part, the localization of
    ```bash
    git clone https://github.com/Nathan494326/mppi_lunar_env.git
    ```
+- If not installed yet, install docker on your computer
 
 - Open five terminals, and in four of them go to ```cd /mppi_lunar_env/docker_ros_ws/``` and in the last one, go to ```cd /mppi_lunar_env/docker_nav_ws/``` 
 
