@@ -6,7 +6,7 @@ As a first step, the terrain topography is simplified to a 2.5D smooth surface, 
 
 In order to be able to put the focus on the navigation part, the localization of the robot is assumed to be known.
 
-## Nodes Overview
+# Nodes Overview
 
 - **`leo_gz_bringup`**:  
   Launches a Gazebo simulation that contains a 20m x 20m map with a 2.5D surface, the Leo Rover, and cylinders as obstacles. This node also publishes the ground truth odometry of the robot.
@@ -22,7 +22,7 @@ In order to be able to put the focus on the navigation part, the localization of
 
 ---
 
-## Get set up
+# Get set up
 - Clone the repository where you want it to be on your local machine:
    ```bash
    git clone https://github.com/Nathan494326/mppi_lunar_env.git
@@ -32,11 +32,11 @@ In order to be able to put the focus on the navigation part, the localization of
 
 ---
 
-## Docker Installation
+# Docker Installation
 
 This section explains how to open 5 different docker containers in order to run everything.
 
-### Terminal 1
+## Terminal 1
 
 - Build the simulation docker:
    ```bash
@@ -47,28 +47,28 @@ This section explains how to open 5 different docker containers in order to run 
    ./docker_simulation/run.sh -n container1
    ```
 
-### Terminal 2
+## Terminal 2
 
 - Open a second container of the simulation docker image:
    ```bash
    ./docker_simulation/run.sh -n container2
    ```
 
-### Terminal 3
+## Terminal 3
 
 - Open a third container of the simulation docker image:
    ```bash
    ./docker_simulation/run.sh -n container3
    ```
 
-### Terminal 4
+## Terminal 4
 
 - Open a fourth container of the simulation docker image:
    ```bash
    ./docker_simulation/run.sh -n container4
    ```
 
-### Terminal 5
+## Terminal 5
 
 - Build the navigation docker:
    ```bash
@@ -80,11 +80,11 @@ This section explains how to open 5 different docker containers in order to run 
    ```
 ---
 
-## Execution Instructions
+# Execution Instructions
 
 Now that you have opened the containers in each terminal, follow the instructions below to set up and run the ROS2 simulation. 
 
-### Terminal 1
+## Terminal 1
 
 - Navigate to the ROS workspace:
    ```bash
@@ -103,7 +103,7 @@ Now that you have opened the containers in each terminal, follow the instruction
    ros2 launch leo_gz_bringup leo_gz.launch.py sim_world:="/workstation/ros_ws/src/leo_simulator-ros2/leo_gz_worlds/worlds/leo_mountains.sdf" world_frame:="leo_mountains"
    ```
 
-### Terminal 2
+## Terminal 2
 - Navigate to the ROS workspace:
    ```bash
    cd ros_ws
@@ -113,7 +113,7 @@ Now that you have opened the containers in each terminal, follow the instruction
    rviz2 -d test_blank_map.rviz
    ```
 
-### Terminal 3
+## Terminal 3
 
 - Navigate to the ROS workspace:
    ```bash
@@ -128,7 +128,7 @@ Now that you have opened the containers in each terminal, follow the instruction
    ros2 run grid_map_publisher grid_map_publisher_node
    ```
 
-### Terminal 4
+## Terminal 4
 
 - Navigate to the ROS workspace:
    ```bash
@@ -143,7 +143,7 @@ Now that you have opened the containers in each terminal, follow the instruction
    ros2 run rocks_publisher rocks_publisher
    ```
 
-### Terminal 5
+## Terminal 5
 
 - Navigate to the Nav2 workspace:
    ```bash
