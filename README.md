@@ -6,6 +6,8 @@ As a first step, the terrain topography is simplified to a 2.5D smooth surface, 
 
 In order to be able to put the focus on the navigation part, the localization of the robot is assumed to be known.
 
+---
+
 # Nodes Overview
 
 - **`leo_gz_bringup`**:  
