@@ -1,8 +1,11 @@
+https://github.com/user-attachments/assets/baf1b27b-beb9-41a7-8fb0-677c913d4eda
+
+
 # Introduction
 
 This project involves navigating a Leo Rover on a simulated lunar terrain using an MPPI controller. The robot uses ROS2 for its software architecture, Gazebo Ignition is used as a simulation environment, and RViz2 as a visualization tool.
 
-As a first step, the terrain topography is simplified to a 2.5D smooth surface, and the rocks are represented by cylinders disposed at strategic places. Using the Nav2stack source code as a baseline, the MPPI controller implementation was modified to incorporate terrain topography as an additional constraint. Since that implied using the LiDAR to map the 2.5D surface surrounding the robot, the obstacle detection had to be reimplemented too, so that it now uses camera detection.
+As a first step, the terrain topography is simplified to a 2.5D smooth surface, and the rocks are represented by cylinders disposed at strategic places. Using the Nav2stack source code as a baseline, the MPPI controller implementation was modified to incorporate terrain topography as an additional constraint. Since this approach involved using the LiDAR to map the 2.5D surface surrounding the robot, the existing obstacle avoidance constraint became ineffective. Consequently, it had to be reimplemented from scratch using a different algorithmic logic.
 
 In order to be able to put the focus on the navigation part, the localization of the robot is assumed to be known.
 
