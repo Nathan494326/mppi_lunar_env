@@ -167,4 +167,9 @@ Now that you have opened the containers in each terminal, follow the instruction
    ```bash
    ros2 launch nav2_bringup map_and_nav_launch.py map:=/workstation/nav2_ws/blank_map.yaml use_sim_time:=true autostart:=true
    ```
+   
+---
 
+# Test it!
+
+Once you have launched everything, you should have, on one hand, the gazebo simulation running, and on the other, RViz2. You can select a new goalpoint in RViz2 and then observe the robot moving, as well as the trajectories that are computed by the MPPI algorithm. Note that running such a heavy simulation and the navigation stack inside dockers might require good computational resources. In the event that your computer would not be able to deal with it, control loops could be missed, causing the algorithm to fail.  
