@@ -1,0 +1,60 @@
+[0.042s] Invoking command in '/workstation/nav2_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/workstation/nav2_ws/install/nav2_util/lib:/workstation/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workstation/nav2_ws/build/nav2_amcl -- -j12 -l12
+[0.188s] [ 29%] Built target pf_lib
+[0.200s] [ 50%] Built target map_lib
+[0.292s] [ 62%] Built target motions_lib
+[0.294s] [ 83%] Built target sensors_lib
+[0.445s] [ 91%] Built target amcl_core
+[0.557s] [100%] Built target amcl
+[0.583s] Invoked command in '/workstation/nav2_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/workstation/nav2_ws/install/nav2_util/lib:/workstation/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workstation/nav2_ws/build/nav2_amcl -- -j12 -l12
+[0.683s] Invoking command in '/workstation/nav2_ws/build/nav2_amcl': AMENT_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/workstation/nav2_ws/install/nav2_util/lib:/workstation/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workstation/nav2_ws/build/nav2_amcl
+[0.685s] -- Install configuration: "Release"
+[0.685s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/lib/libamcl_core.so
+[0.686s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/lib/nav2_amcl/amcl
+[0.687s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include/
+[0.687s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl
+[0.687s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf
+[0.687s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp
+[0.687s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp
+[0.687s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp
+[0.687s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp
+[0.688s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp
+[0.688s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/angleutils.hpp
+[0.688s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/motion_model
+[0.688s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp
+[0.688s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/motion_model/differential_motion_model.hpp
+[0.688s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/motion_model/omni_motion_model.hpp
+[0.688s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp
+[0.688s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/map
+[0.688s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/map/map.hpp
+[0.688s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/sensors
+[0.689s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser
+[0.689s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp
+[0.689s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/include//nav2_amcl/portable_utils.hpp
+[0.689s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh
+[0.689s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv
+[0.689s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/plugins.xml
+[0.690s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl
+[0.690s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl
+[0.690s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh
+[0.690s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv
+[0.690s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/path.sh
+[0.691s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/environment/path.dsv
+[0.692s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.bash
+[0.693s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.sh
+[0.693s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.zsh
+[0.693s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.dsv
+[0.693s] -- Installing: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/package.dsv
+[0.693s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl
+[0.693s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/nav2_amcl__pluginlib__plugin/nav2_amcl
+[0.695s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/ament_index/resource_index/rclcpp_components/nav2_amcl
+[0.695s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.695s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake
+[0.695s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.696s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake
+[0.696s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake
+[0.696s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/share/nav2_amcl/package.xml
+[0.696s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/lib/libpf_lib.so
+[0.696s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/lib/libmap_lib.so
+[0.696s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/lib/libmotions_lib.so
+[0.696s] -- Up-to-date: /workstation/nav2_ws/install/nav2_amcl/lib/libsensors_lib.so
+[0.764s] Invoked command in '/workstation/nav2_ws/build/nav2_amcl' returned '0': AMENT_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/nav2_ws/install/nav2_util:/workstation/nav2_ws/install/nav2_msgs:/workstation/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/workstation/nav2_ws/install/nav2_util/lib:/workstation/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/workstation/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workstation/nav2_ws/build/nav2_amcl

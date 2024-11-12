@@ -1,0 +1,3 @@
+source;share/leo_pose/environment/ament_prefix_path.sh
+source;share/leo_pose/environment/library_path.sh
+source;share/leo_pose/environment/path.sh

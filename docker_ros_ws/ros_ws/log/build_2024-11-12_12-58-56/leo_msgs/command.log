@@ -1,0 +1,6 @@
+Invoking command in '/workstation/ros_ws/build/leo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workstation/ros_ws/src/leo_common-ros2/leo_msgs -DCMAKE_INSTALL_PREFIX=/workstation/ros_ws/install/leo_msgs
+Invoked command in '/workstation/ros_ws/build/leo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workstation/ros_ws/src/leo_common-ros2/leo_msgs -DCMAKE_INSTALL_PREFIX=/workstation/ros_ws/install/leo_msgs
+Invoking command in '/workstation/ros_ws/build/leo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/ros_ws/build/leo_msgs -- -j12 -l12
+Invoked command in '/workstation/ros_ws/build/leo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workstation/ros_ws/build/leo_msgs -- -j12 -l12
+Invoking command in '/workstation/ros_ws/build/leo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/ros_ws/build/leo_msgs
+Invoked command in '/workstation/ros_ws/build/leo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workstation/ros_ws/build/leo_msgs

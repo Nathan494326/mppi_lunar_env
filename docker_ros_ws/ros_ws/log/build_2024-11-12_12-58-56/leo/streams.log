@@ -1,0 +1,27 @@
+[0.014s] Invoking command in '/workstation/ros_ws/build/leo': AMENT_PREFIX_PATH=/workstation/ros_ws/install/leo_teleop:/workstation/ros_ws/install/leo_msgs:/workstation/ros_ws/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/ros_ws/install/leo_teleop:/workstation/ros_ws/install/leo_msgs:/workstation/ros_ws/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/workstation/ros_ws/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/ros_ws/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workstation/ros_ws/src/leo_common-ros2/leo -DCMAKE_INSTALL_PREFIX=/workstation/ros_ws/install/leo
+[0.037s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.260s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.475s] -- Configuring done
+[0.478s] -- Generating done
+[0.478s] -- Build files have been written to: /workstation/ros_ws/build/leo
+[0.481s] Invoked command in '/workstation/ros_ws/build/leo' returned '0': AMENT_PREFIX_PATH=/workstation/ros_ws/install/leo_teleop:/workstation/ros_ws/install/leo_msgs:/workstation/ros_ws/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/ros_ws/install/leo_teleop:/workstation/ros_ws/install/leo_msgs:/workstation/ros_ws/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/workstation/ros_ws/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/ros_ws/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workstation/ros_ws/src/leo_common-ros2/leo -DCMAKE_INSTALL_PREFIX=/workstation/ros_ws/install/leo
+[0.482s] Invoking command in '/workstation/ros_ws/build/leo': AMENT_PREFIX_PATH=/workstation/ros_ws/install/leo_teleop:/workstation/ros_ws/install/leo_msgs:/workstation/ros_ws/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/ros_ws/install/leo_teleop:/workstation/ros_ws/install/leo_msgs:/workstation/ros_ws/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/workstation/ros_ws/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/ros_ws/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workstation/ros_ws/build/leo -- -j12 -l12
+[0.533s] Invoked command in '/workstation/ros_ws/build/leo' returned '0': AMENT_PREFIX_PATH=/workstation/ros_ws/install/leo_teleop:/workstation/ros_ws/install/leo_msgs:/workstation/ros_ws/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/ros_ws/install/leo_teleop:/workstation/ros_ws/install/leo_msgs:/workstation/ros_ws/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/workstation/ros_ws/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/ros_ws/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workstation/ros_ws/build/leo -- -j12 -l12
+[0.561s] Invoking command in '/workstation/ros_ws/build/leo': AMENT_PREFIX_PATH=/workstation/ros_ws/install/leo_teleop:/workstation/ros_ws/install/leo_msgs:/workstation/ros_ws/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/ros_ws/install/leo_teleop:/workstation/ros_ws/install/leo_msgs:/workstation/ros_ws/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/workstation/ros_ws/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/ros_ws/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workstation/ros_ws/build/leo
+[0.570s] -- Install configuration: ""
+[0.571s] -- Installing: /workstation/ros_ws/install/leo/share/ament_index/resource_index/package_run_dependencies/leo
+[0.571s] -- Installing: /workstation/ros_ws/install/leo/share/ament_index/resource_index/parent_prefix_path/leo
+[0.571s] -- Installing: /workstation/ros_ws/install/leo/share/leo/environment/ament_prefix_path.sh
+[0.571s] -- Installing: /workstation/ros_ws/install/leo/share/leo/environment/ament_prefix_path.dsv
+[0.572s] -- Installing: /workstation/ros_ws/install/leo/share/leo/environment/path.sh
+[0.572s] -- Installing: /workstation/ros_ws/install/leo/share/leo/environment/path.dsv
+[0.572s] -- Installing: /workstation/ros_ws/install/leo/share/leo/local_setup.bash
+[0.572s] -- Installing: /workstation/ros_ws/install/leo/share/leo/local_setup.sh
+[0.573s] -- Installing: /workstation/ros_ws/install/leo/share/leo/local_setup.zsh
+[0.573s] -- Installing: /workstation/ros_ws/install/leo/share/leo/local_setup.dsv
+[0.573s] -- Installing: /workstation/ros_ws/install/leo/share/leo/package.dsv
+[0.573s] -- Installing: /workstation/ros_ws/install/leo/share/ament_index/resource_index/packages/leo
+[0.574s] -- Installing: /workstation/ros_ws/install/leo/share/leo/cmake/leoConfig.cmake
+[0.574s] -- Installing: /workstation/ros_ws/install/leo/share/leo/cmake/leoConfig-version.cmake
+[0.574s] -- Installing: /workstation/ros_ws/install/leo/share/leo/package.xml
+[0.577s] Invoked command in '/workstation/ros_ws/build/leo' returned '0': AMENT_PREFIX_PATH=/workstation/ros_ws/install/leo_teleop:/workstation/ros_ws/install/leo_msgs:/workstation/ros_ws/install/leo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workstation/ros_ws/install/leo_teleop:/workstation/ros_ws/install/leo_msgs:/workstation/ros_ws/install/leo_description:/opt/ros/humble LD_LIBRARY_PATH=/workstation/ros_ws/install/leo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workstation/ros_ws/install/leo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workstation/ros_ws/build/leo

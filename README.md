@@ -22,94 +22,66 @@ In order to be able to put the focus on the navigation part, the localization of
 
 ---
 
+## Get set up
+- Clone the repository where you want it to be on your local machine:
+   ```bash
+   git clone https://github.com/Nathan494326/mppi_lunar_env.git
+   ```
+
+- Open five terminals, and in four of them go to ```cd /mppi_lunar_env/docker_ros_ws/``` and in the last one, go to ```cd /mppi_lunar_env/docker_nav_ws/``` 
+
+
+
 ## Docker Installation
+
+This section explains how to open 5 different docker containers in order to run everything.
 
 ### Terminal 1
 
-- Navigate to the ROS workspace:
+- Build the simulation docker:
    ```bash
-   cd ros_ws
+   ./docker_simulation/build.sh
    ```
-- Build the workspace:
+- Open a first container of that docker image:
    ```bash
-   colcon build
-   ```
-- Source the workspace:
-   ```bash
-   source install/setup.bash
-   ```
-- Launch the simulation:
-   ```bash
-   ros2 launch leo_gz_bringup leo_gz.launch.py sim_world:="/workstation/ros_ws/src/leo_simulator-ros2/leo_gz_worlds/worlds/leo_mountains.sdf" world_frame:="leo_mountains"
+   ./docker_simulation/run.sh -n container1
    ```
 
 ### Terminal 2
 
-- Launch RViz:
+- Open a second container of the simulation docker image:
    ```bash
-   rviz2 -d test_blank_map.rviz
+   ./docker_simulation/run.sh -n container2
    ```
 
 ### Terminal 3
 
-- Navigate to the ROS workspace:
+- Open a third container of the simulation docker image:
    ```bash
-   cd ros_ws
-   ```
-- Source the workspace:
-   ```bash
-   source install/setup.bash
-   ```
-- Run the grid map publisher:
-   ```bash
-   ros2 run grid_map_publisher grid_map_publisher_node
+   ./docker_simulation/run.sh -n container3
    ```
 
 ### Terminal 4
 
-- Navigate to the ROS workspace:
+- Open a fourth container of the simulation docker image:
    ```bash
-   cd ros_ws
-   ```
-- Source the workspace:
-   ```bash
-   source install/setup.bash
-   ```
-- Run the rocks publisher:
-   ```bash
-   ros2 run rocks_publisher rocks_publisher
+   ./docker_simulation/run.sh -n container4
    ```
 
 ### Terminal 5
 
-- Navigate to the Nav2 workspace:
+- Build the navigation docker:
    ```bash
-   cd nav2_ws
+   ./docker_navigation/build.sh
    ```
-- Build the workspace:
+- Open a container of the navigation docker image:
    ```bash
-   colcon build
-   ```
-- Source the workspace:
-   ```bash
-   source install/setup.bash
-   ```
-- Navigate to the ROS2 workspace:
-   ```bash
-   cd ros2_ws
-   ```
-- Source the workspace:
-   ```bash
-   source install/setup.bash
-   ```
-- Launch the navigation stack:
-   ```bash
-   ros2 launch nav2_bringup map_and_nav_launch.py map:=/workstation/nav2_ws/blank_map.yaml use_sim_time:=true autostart:=true
+   ./docker_navigation/run.sh
    ```
 
 ## Execution Instructions
 
-Follow the instructions below to set up and run the ROS2 simulation.
+Now that you have opened the containers in each terminal, follow the instructions below to set up and run the ROS2 simulation. 
 
 ### Terminal 1
 
@@ -117,7 +89,7 @@ Follow the instructions below to set up and run the ROS2 simulation.
    ```bash
    cd ros_ws
    ```
-- Build the workspace:
+- Build the workspace (can take around 1min):
    ```bash
    colcon build
    ```
@@ -131,7 +103,10 @@ Follow the instructions below to set up and run the ROS2 simulation.
    ```
 
 ### Terminal 2
-
+- Navigate to the ROS workspace:
+   ```bash
+   cd ros_ws
+   ```
 - Launch RViz:
    ```bash
    rviz2 -d test_blank_map.rviz
@@ -173,17 +148,9 @@ Follow the instructions below to set up and run the ROS2 simulation.
    ```bash
    cd nav2_ws
    ```
-- Build the workspace:
+- Build the workspace (this takes a long time, up to 15-20min):
    ```bash
    colcon build
-   ```
-- Source the workspace:
-   ```bash
-   source install/setup.bash
-   ```
-- Navigate to the ROS2 workspace:
-   ```bash
-   cd ros2_ws
    ```
 - Source the workspace:
    ```bash
