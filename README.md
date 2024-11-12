@@ -8,18 +8,18 @@ In order to be able to put the focus on the navigation part, the localization of
 
 ---
 
-# Nodes Overview
+# Packages Overview
 
 - **`leo_gz_bringup`**:  
-  Launches a Gazebo simulation that contains a 20m x 20m map with a 2.5D surface, the Leo Rover, and cylinders as obstacles. This node also publishes the ground truth odometry of the robot.
+  This package is responsible for launching a Gazebo simulation that contains a 20m x 20m map with a 2.5D surface, the Leo Rover, and cylinders as obstacles. There is also a node that publishes the ground truth odometry of the robot.
 
 - **`grid_map_publisher`**:  
-  As the mapping algorithm is assumed to be working, this node is responsible for publishing the local elevation map. To do so, the robot's current position is retrieved, and a local elevation map of 4m x 4m is published.
+  As the mapping algorithm is assumed to be working, this node from this package is responsible for publishing the local elevation map. To do so, the robot's current position is retrieved, and the local elevation map of 4m x 4m is extracted from the global elevation map.
 
 - **`rocks_publisher`**:  
   Since obstacle detection is assumed to be working, this node is responsible for publishing the detected obstacles data. Based on the robot's current position, the x-y position and radius of obstacles within a 4m radius are published.
 
-- **`nav2_bringup`** (`launch: map_and_nav_launch.py`):  
+- **`nav2_bringup`**:  
   Launches several nodes from the navigation stack that handle global mapping, local mapping (MPPI controller), velocity smoothing, and more.
 
 ---
