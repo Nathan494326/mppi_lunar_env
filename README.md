@@ -1,5 +1,6 @@
 https://github.com/user-attachments/assets/baf1b27b-beb9-41a7-8fb0-677c913d4eda
 
+If the video does not work, you can visualize it by following this link : https://github.com/user-attachments/assets/baf1b27b-beb9-41a7-8fb0-677c913d4eda
 
 # Introduction
 
