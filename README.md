@@ -1,6 +1,4 @@
-https://github.com/user-attachments/assets/baf1b27b-beb9-41a7-8fb0-677c913d4eda
-
-If the video does not work, you can visualize it by following this link : https://github.com/user-attachments/assets/baf1b27b-beb9-41a7-8fb0-677c913d4eda
+[Gazebo and RViz visualisation of a leo rover navigating uneven terrain with obstacles using 3D MPPI](https://www.youtube.com/watch?v=MdE4KLkD8W4)
 
 # Introduction
 
